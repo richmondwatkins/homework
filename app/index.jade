@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Homework
+    link(rel='stylesheet', href='./css/app.css')
+  body
+    h1 Homework
+
+    table#board
+      tbody
+        tr(data-x= 0, data-y=0)
+          td.box(data-x= 1, data-y=0)
+          td.box(data-x= 2, data-y=0)
+        tr(data-x= 0, data-y=1)
+          td.box(data-x= 1, data-y=0)
+          td.box(data-x= 2, data-y=0)
+        tr(data-x= 0, data-y=2)
+          td.box(data-x= 1, data-y=0)
+          td.box(data-x= 2, data-y=0)
+
+
+    script(src='./js/vendor/jquery-2.1.0.js')
+    script(src='./js/source/main.js')
